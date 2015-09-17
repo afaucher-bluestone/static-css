@@ -1,0 +1,762 @@
+/* LESS variables         */
+/* Landing Page Container Div             */
+.landPageBlock {
+  display: block;
+  padding: 75px 120px;
+  text-align: left;
+  position: relative;
+}
+/* Landing Page Block A - Short CTA (no form)*/
+.blockA {
+  background-color: #DDDBDB;
+  /* Here's where the gradient goes */
+  color: #4A4A4A;
+}
+.blockA .imageCol {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  background-size: cover;
+  /* Add browser compatibility */
+}
+.blockA .contentCol {
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+.blockA .contentCol .lpHeader {
+  margin-bottom: 35px;
+  text-align: right;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: -1.8;
+  line-height: 1.19;
+}
+.blockA .contentCol p {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.36;
+  margin-bottom: 35px;
+}
+.blockA input#submit {
+  width: 100%;
+  /* 100% of column */
+  background-color: #003865;
+  color: #FFF;
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+/* Instance-Specific Image Class */
+.blockA .imageCol .whitePaperPRM {
+  background-image: url("URL GOES HERE");
+}
+/*Contact Us Form            */
+.contactForm {
+  display: block;
+  padding: 10px;
+  position: relative;
+  background-color: #F6F6F6;
+}
+/*PRM Healthcare Mailer Form*/
+.intacctBttn {
+  background-color: #4e8ec1 !important;
+}
+.intacctBttn:hover {
+  background-color: #9bbfdc !important;
+}
+/*PRM Healthcare Mailer Form*/
+.prmMailer {
+  border: solid 1px #003865;
+  padding: 10px;
+  line-height: 1.8;
+}
+.prmMailer input#first_name,
+.prmMailer input#last_name,
+.prmMailer input#email {
+  display: inline-block;
+  float: left;
+  margin: 10px;
+}
+.prmMailer input#company {
+  display: block;
+  margin: 10px;
+  width: 350px;
+}
+.prmMailer input#first_name,
+.prmMailer input#last_name {
+  width: 165px;
+}
+.prmMailer input#email {
+  width: 350px;
+}
+/*PRM Screenshots */
+.prmScreenshot {
+  width: 100%;
+}
+/* PRM Messaging Block */
+.prmMessaging {
+  font-size: 22px !important;
+  color: #333 !important;
+  text-align: center !important;
+  font-family: Open Sans Bold, sans-serif !important;
+}
+.prmMessaging .su-column {
+  background-color: #F2F2F2 !important;
+  padding: 20px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 1s, color 1.2s;
+  transition: background-color 1s, color 1.2s;
+}
+.prmMessaging .su-column:hover {
+  color: #111 !important;
+}
+/*.prmMessaging .su-column {
+  background-color: @bscg-dark-accent !important;
+    padding: 20px;
+  
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+  
+    -webkit-transition: background-color 1s, color 1.2s;
+    transition: background-color 1s, color 1.2s;
+}
+
+
+.prmMessaging .su-column:hover {
+    color:#333 !important;
+    background-color:#F2F2F2 !important;
+}*/
+.prmMessaging i {
+  font-size: 32px;
+  /*margin-right:20px !important;*/
+}
+/*Sidebar List modifications*/
+li.sidebarList {
+  /*line-height:5px !important; */
+  margin-bottom: 0px !important;
+  /*font-size:12px !important;*/
+}
+.sidebar ul li {
+  /*line-height:5px !important; */
+  margin-bottom: 0px !important;
+  /*font-size:12px !important;*/
+}
+/*Sidebar Testimonial*/
+.sidebar .clientQuote {
+  font-size: 16px !important;
+}
+.sidebar .clientQuote:hover {
+  font-size: 16px !important;
+}
+.sidebar .clientSrc {
+  font-size: 16px !important;
+  text-align: right !important;
+}
+/*Partners Page*/
+#post-95 img {
+  margin-top: 50px !important;
+}
+/*Clients Page*/
+.clientQuote {
+  padding: 20px;
+  text-align: left;
+  background-color: #003865 !important;
+  color: #FFF !important;
+  font-size: 22px !important;
+  margin-bottom: 1em;
+  line-height: 1.3;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 1s, color 1.2s;
+  transition: background-color 1s, color 1s;
+}
+.clientQuote:hover {
+  /*color:#333 !important;*/
+  background-color: #4e8ec1 !important;
+}
+.clientSrc {
+  font-size: 22px !important;
+  text-align: left;
+  text-transform: uppercase;
+}
+.clientsGallery .su-custom-gallery-slide {
+  margin: 1em !important;
+}
+.clientsGallery .su-custom-gallery-slide img {
+  border: none !important;
+  opacity: .5 !important;
+  transition: all 1s !important;
+}
+.clientsGallery .su-custom-gallery-slide img:hover {
+  border: none !important;
+  opacity: 1 !important;
+}
+/*Shortcodes Ultimate button*/
+.specialBttn {
+  background-color: #af2a2a !important;
+}
+/*Button */
+.bttn {
+  font-size: 12px !important;
+}
+/*Button Font Awesome Icons*/
+.bttn i {
+  margin-right: 10px;
+}
+/*Blog Post*/
+.su-posts-default-loop .su-post-comments-link {
+  display: none;
+}
+.su-posts-default-loop .su-post {
+  margin-bottom: 1em !important;
+  padding: 20px;
+  /*border: solid 1px;
+    border-color:#F2F2F2;   */
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 1s, color 0.5s, border 0.5s;
+  transition: background-color 1s, color 0.5s, border-color 0.5s;
+}
+.su-posts-default-loop .su-post:hover {
+  /*border-color:#888;*/
+  color: #222;
+  background-color: #E6ECEC;
+}
+/*Blog Post Image Size*/
+.su-posts-default-loop .su-post-thumbnail {
+  float: right !important;
+  width: 100px !important;
+  height: 100% !important;
+  margin-left: 20px !important;
+  margin-right: 0px !important;
+}
+.su-posts-default-loop .su-post-thumbnail img {
+  width: 100px !important;
+  height: 100px !important;
+  margin-top: 5px;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/*Clients Logo Header Override*/
+#clients-logo h2 {
+  text-transform: uppercase !important;
+}
+#clients-logo h2:after {
+  border-color: #003865 !important;
+}
+/*Mid Section Header*/
+h2.mid-section-header {
+  text-transform: uppercase !important;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+  /*margin-top: -15px;*/
+}
+h2.mid-section-header:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 50px;
+  margin-left: -25px;
+  border-bottom: 1px solid #003865;
+}
+/*Posts Section Header*/
+h2.posts-section-header {
+  text-transform: uppercase !important;
+  text-align: center;
+  margin-bottom: 55px;
+  position: relative;
+  /*margin-top: -15px;*/
+}
+h2.posts-section-header:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 50px;
+  margin-left: -25px;
+  border-bottom: 1px solid #003865;
+}
+/*Industries Buttons*/
+.bttn#indBttn {
+  color: #333!important;
+  background-color: #FFF;
+  border: solid 1px #333;
+  width: 100%;
+  text-align: center;
+}
+.bttn#indBttn:hover {
+  color: #FFF !important;
+  background-color: #333;
+  border: solid 1px #333;
+}
+/*Hoverposts on homepages*/
+#bottom-section a {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.hoverPost {
+  /*border: solid 1px;
+    border-color:#F2F2F2;*/
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  padding: 20px;
+  width: 350px;
+  height: 380px !important;
+  background-color: #FFF;
+  -webkit-transition: background-color 1s, color 0.5s, border 0.5s;
+  transition: background-color 1s, color 0.5s, border-color 0.5s;
+}
+.hoverPost:hover {
+  /*border-color:#888;*/
+  color: #222;
+  background-color: #E6ECEC;
+}
+.hoverPost i {
+  margin: 0px 10px;
+}
+.hoverPost h3 {
+  font-size: 18px !important;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #003865;
+  position: relative;
+  margin-bottom: 6px;
+}
+/*Modify slider heading */
+.bcgSliderTitle {
+  font-family: 'Montserrat', 'Open Sans', sans-serif !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.bcgSliderSubtitle {
+  font-size: 20px !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+a.more-link {
+  border-radius: 0px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border: solid 1px #FFF !important;
+  text-transform: uppercase !important;
+}
+a.more-link:hover {
+  color: #1D2022 !important;
+  background: #FFF !important;
+}
+/*Font awesome icons width*/
+.su-tabs .su-tabs-pane i {
+  width: 30px;
+}
+/*Standard width for FontAwesome Icons on PRM page*/
+.prmMore i {
+  width: 30px;
+}
+.prmMore .su-spoiler-title {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold !important;
+  color: #003865 !important;
+  font-size: 12pt !important;
+  margin-bottom: 5px !important;
+}
+/*Custom SU Tabs    */
+.su-tabs {
+  background-color: #003865 !important;
+  border: solid 1px #003865 !important;
+  border-radius: 0 !important;
+  padding: 0px !important;
+}
+.su-tabs .su-tabs-nav span {
+  color: #FFF;
+  border-radius: 0 !important;
+}
+.su-tabs .su-tabs-nav span:hover {
+  color: #333;
+  border-radius: 0 !important;
+}
+.su-tabs .su-tabs-nav span.su-tabs-current {
+  color: #333;
+  border-radius: 0 !important;
+}
+.su-tabs .su-tabs-pane {
+  border-radius: 0 !important;
+}
+/* Red band across header */
+header.entry-header {
+  background: #af2a2a;
+  padding: 5px;
+}
+/* Add a blue border to any image */
+.borderImage {
+  padding: 10px;
+  border: 1px solid #003865;
+}
+/* Add line under "Upcoming Events"*/
+div#latest-events h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #003865;
+  position: relative;
+  /*margin-bottom: 10px;*/
+}
+/* About Us images */
+#post-86 .su-row .su-column:first-child {
+  /*center image in column*/
+  text-align: center !important;
+}
+.aboutUs img {
+  width: 200px;
+  border-radius: 100%;
+  padding: 10px;
+  border: 1px solid #003865;
+}
+/* Reformat ICONS H3 titles */
+.featured-post h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #003865;
+  position: relative;
+  /*margin-bottom: 6px;*/
+}
+.featured-post h2 a span {
+  font-size: 18px !important;
+}
+/*try to change the background color of a full-width section*/
+/*
+#bottom-section {
+ background-color:@bscg-dark-accent; 
+ color:#FFF;
+}
+
+#bottom-section aside.widget {
+ background-color: #FFF;
+ color: black;
+}
+*/
+/*Format industries tab on homepage */
+/*
+.industryBox {
+  text-align:left;
+  border-bottom: solid 1px #F2F2F2;
+}
+
+.industryHeader {
+  font-family:'Montserrat','Open Sans',sans-serif !important; 
+  text-transform: uppercase;
+  color:@bscg-dark-accent;
+}
+
+.industryLink {
+  text-transform: uppercase;
+  background-color: #FFF;
+  padding: 5px;
+}*/
+.bttn#altBttn {
+  color: #003865 !important;
+  background-color: #FFF;
+  border: solid 1px #003865;
+}
+.bttn#altBttn:hover {
+  color: #FFF !important;
+  background-color: #003865;
+  border: solid 1px #003865;
+}
+/*Remove excess space below spoiler */
+.su-spoiler {
+  margin: 0 !important;
+}
+/*Reformat bulleted lists     */
+/*from funky theme presets      */
+.content-area ul {
+  line-height: auto;
+  margin-bottom: 25px !important;
+  /*margin: auto 15px 20px 15px;*/
+}
+.content-area ul li {
+  line-height: auto !important;
+  margin: auto 15px;
+}
+/*prevent issues with nested ul   */
+.content-area ul li ul {
+  margin-bottom: auto !important;
+}
+/*special "long" ul formatting    */
+/*for paragraph-length ul's     */
+.content-area ul.long li {
+  line-height: auto !important;
+  margin: 20px 15px;
+}
+/*Make the call to action button  */
+/*transparent with white border   */
+#action-bar {
+  padding: 10px !important;
+}
+#action-bar p {
+  /*font-family:'Montserrat','Open Sans',sans-serif !important;*/
+  display: inline-block;
+  float: left;
+  padding: 10px 0px;
+  margin: 0px;
+}
+#action-bar .action-bar-button {
+  /*font-family:'Montserrat','Open Sans',sans-serif !important;*/
+  /*font-size: 16px;*/
+  background: transparent;
+  border: 1px solid white;
+  display: inline-block;
+  float: right;
+  margin: 0px 10px;
+  border-radius: 0px;
+}
+/*These classes affect the "Our Team" page*/
+/*VERSION 1I*/
+.teamPortrait span {
+  display: block;
+}
+.teamPortrait img {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #F1F1F1;
+  border-radius: 0%;
+}
+hr {
+  background-color: #F2F2F2;
+}
+.teamColContainer1 {
+  display: block;
+  clear: both;
+  height: auto;
+  margin: 0px;
+  background-color: #FFFFFF;
+  /*border: solid 1px green;*/
+}
+.teamColContainer2 {
+  display: block;
+  clear: both;
+  height: auto;
+  margin: 0px;
+  background-color: #F6F6F6;
+  /*border: solid 1px black;*/
+}
+.teamPortrait {
+  float: left;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  /*border: solid 1px red;*/
+}
+.teamBio {
+  display: inline-block;
+  max-width: 800px;
+  min-height: 200px;
+  border-left: solid 1px #F1F1F1;
+  padding: 0px 10px 10px 10px;
+  margin: 10px;
+  /*border: solid 1px blue;*/
+}
+/* Remove standard title from page */
+.entry-title {
+  display: none;
+}
+/* Allow alignment of page H3 titles with top of widget title*/
+/* and format H3 titles in content like widget titles with  */
+/* a blue border underneath                 */
+.entry-content {
+  margin: 0 10px 0 0;
+}
+.entry-content h1 {
+  font-size: 22px !important;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #003865;
+  position: relative;
+  margin-bottom: 6px;
+}
+/* Reformat h2 on content pages */
+/*                */
+.entry-content h2 {
+  /*font-family: 'Open Sans',sans-serif !important;*/
+  font-weight: bold !important;
+  color: #003865 !important;
+  font-size: 12pt !important;
+  margin-bottom: 5px !important;
+}
+/* Format in case H2 are links  */
+.entry-content h2 a,
+.entry-content h2 a:visited {
+  /*font-family: 'Open Sans',sans-serif !important;*/
+  font-weight: bold !important;
+  color: #4e8ec1 !important;
+  font-size: 12pt !important;
+  margin-bottom: 5px !important;
+}
+.entry-content h2 a:hover {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold !important;
+  color: #9bbfdc !important;
+  font-size: 12pt !important;
+  margin-bottom: 5px !important;
+}
+.entry-content h2 a:active {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold !important;
+  color: #4e8ec1 !important;
+  font-size: 12pt !important;
+  margin-bottom: 5px !important;
+}
+/*
+.entry-content h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid @bscg-dark-accent;
+  position: relative;
+  margin-bottom: 6px;
+}
+*/
+/*Remove linking from   */
+/*AccessPress theme     */
+/*"Featured Posts section */
+.featured-post {
+  pointer-events: none;
+  cursor: default;
+}
+.featured-overlay {
+  display: none;
+}
+.featured-post a.read-more {
+  display: none;
+}
+/*Make text smaller in the footer*/
+.footer {
+  font-size: 75%;
+}
+#top-footer h2.widget-title {
+  font-size: 16px !important;
+}
+#top-footer h2 {
+  font-size: 16px !important;
+}
+#top-footer h2 a {
+  color: #EEE !important;
+  font-size: 16px !important;
+}
+/*iPad Media Queries - Landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .hoverPost {
+    width: 300px !important;
+  }
+}
+/*iPad Media Queries - Landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .hoverPost {
+    margin: auto !important;
+    width: 50% !important;
+  }
+}
+/*Mobile Media Queries - Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /*PRM Mailer Formatting*/
+  .prmMailer input#first_name,
+  .prmMailer input#last_name,
+  .prmMailer input#email,
+  .prmMailer input#company {
+    display: block;
+    margin: 10px;
+    width: 90%;
+  }
+  /*Reposition background image*/
+  .big-banner {
+    background-position: bottom right !important;
+  }
+  /*Reposition title*/
+  #sequence .title {
+    margin-top: -45% !important;
+  }
+  /*our team page*/
+  .teamPortrait {
+    font-size: 80%;
+    clear: both;
+    width: 100%;
+    margin: auto;
+    /*color:#FF0000;*/
+  }
+  .teamBio {
+    float: left;
+    clear: both;
+    width: auto;
+    /*color:#FF0000;*/
+  }
+  .bcgSliderTitle {
+    background-color: transparent !important;
+  }
+  .bcgSliderSubtitle {
+    background-color: transparent !important;
+  }
+  #action-bar p {
+    font-size: 10px !important;
+    text-align: center !important;
+  }
+  #action-bar .action-bar-button {
+    font-size: 8px !important;
+    padding: 5px;
+    display: inline !important;
+    float: right !important;
+    /*clear: both;*/
+    position: relative;
+    margin: 5px auto 0px auto;
+  }
+  /* Change Header Banner size on mobile      */
+  /* This selector works but I'll need to revisit */
+  /* because it's not resizing in a smart way   */
+  /*#header-banner-image img {}         */
+  .hoverPost {
+    margin: auto;
+    padding: auto;
+    width: 100% !important;
+    transition: background-color 1s, color 1s;
+  }
+  /*Client Gallery formatting*/
+  .clientsGallery .su-custom-gallery-slide img {
+    border: none !important;
+    opacity: 1 !important;
+    transition: all 1s !important;
+  }
+  /*Blog Posts formatting*/
+  .su-posts-default-loop .su-post {
+    height: auto !important;
+  }
+  .su-posts-default-loop .su-post-thumbnail {
+    float: right;
+  }
+  /*Partners Page*/
+  #post-95 img {
+    margin-top: auto !important;
+    margin-bottom: 50px !important;
+  }
+}
+/*Mobile Media Queries - Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  #sequence .title {
+    margin-top: -30% !important;
+  }
+}
+/*ANDROID SCREEN Media Queries - Portrait */
+/*  @media (-webkit-device-pixel-ratio: 1.5),  
+        (-o-device-pixel-ratio: 3/2),  
+        (-moz-device-pixel-ratio: 1.5),  
+        (device-pixel-ratio: 1.5){
+  
+  
+      #sequence .title {
+        margin-top: -55% !important;
+      }
+  
+  
+} */
